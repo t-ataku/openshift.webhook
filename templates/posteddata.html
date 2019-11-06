@@ -1,0 +1,13 @@
+<HTML>
+<HEAD>
+{% if name %}
+<TITLE>Result Page for {{ name }}</TITLE>
+{% else %}
+<TITLE>No result Page</TITLE>
+{% endif %}
+</HEAD>
+<BODY>
+<H1>Title</H1>
+<P>You entered <em>{{ name }}</em>
+</BODY>
+</HTML>
